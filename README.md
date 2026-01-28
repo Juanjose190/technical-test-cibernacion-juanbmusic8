@@ -40,7 +40,11 @@
     ```bash
     cd Downloads/credits-core
     ```
-3.  **Launch services:**
+    **Or**
+     ```bash
+    cd credits-core
+    ```
+4.  **Launch services:**
     ```bash
     docker-compose up --build
     ```
