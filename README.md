@@ -38,7 +38,7 @@
     ```
 2.  **Navigate to the folder:**
     ```bash
-    cd credits-core
+    cd Downloads/credits-core
     ```
 3.  **Launch services:**
     ```bash
