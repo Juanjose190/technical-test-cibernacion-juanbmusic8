@@ -34,11 +34,11 @@
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/bcredits/bcredits-core-dev.git
+    https://github.com/Juanjose190/technical-test-cibernacion-juanbmusic8.git
     ```
 2.  **Navigate to the folder:**
     ```bash
-    cd bcredits-core-dev
+    cd credits-core
     ```
 3.  **Launch services:**
     ```bash
