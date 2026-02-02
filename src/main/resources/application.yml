@@ -7,7 +7,7 @@ spring:
     username: ${JDBC_USER:postgres}
     password: ${JDBC_PASS:postgres}
     driver-class-name: org.postgresql.Driver
-    hikari:  # ← Añade configuración de pool
+    hikari: 
       maximum-pool-size: 10
       minimum-idle: 5
       connection-timeout: 30000
@@ -30,7 +30,7 @@ spring:
   jackson:
     serialization:
       write-dates-as-timestamps: false
-      indent-output: true  # Solo en dev
+      indent-output: true  
     time-zone: UTC
     default-property-inclusion: non_null  
 
@@ -50,3 +50,8 @@ server:
   error:
     include-message: always  
     include-binding-errors: always
+
+    
+app:
+  cors:
+    allowed-origins: ${ALLOWED_ORIGINS:http://localhost:4200}
